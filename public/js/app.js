@@ -13915,6 +13915,11 @@ module.exports = __webpack_require__(48);
  */
 
 __webpack_require__(15);
+// require('../assets/javascripts/jquery-3.3.1.min.js');
+// require('../assets/javascripts/jquery.sticky-kit.min.js');
+// require('../assets/javascripts/jquery.inputmask.bundle.min.js');
+// require('../assets/javascripts/parallax.min.js');
+// require('../assets/javascripts/jquery.main.js');
 
 /**
  * Next, we will create a fresh React component instance and attach it to
@@ -13922,7 +13927,7 @@ __webpack_require__(15);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-__webpack_require__(39);
+__webpack_require__(69);
 
 /***/ }),
 /* 15 */
@@ -36157,78 +36162,7 @@ module.exports = function spread(callback) {
 
 
 /***/ }),
-/* 39 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-
-var Example = function (_Component) {
-    _inherits(Example, _Component);
-
-    function Example() {
-        _classCallCheck(this, Example);
-
-        return _possibleConstructorReturn(this, (Example.__proto__ || Object.getPrototypeOf(Example)).apply(this, arguments));
-    }
-
-    _createClass(Example, [{
-        key: 'render',
-        value: function render() {
-            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'container' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'div',
-                    { className: 'row justify-content-center' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'div',
-                        { className: 'col-md-8' },
-                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                            'div',
-                            { className: 'card' },
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                'div',
-                                { className: 'card-header' },
-                                'Example Component'
-                            ),
-                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                                'div',
-                                { className: 'card-body' },
-                                'I\'m an example component!'
-                            )
-                        )
-                    )
-                )
-            );
-        }
-    }]);
-
-    return Example;
-}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (Example);
-
-
-if (document.getElementById('example')) {
-    __WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Example, null), document.getElementById('example'));
-}
-
-/***/ }),
+/* 39 */,
 /* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -58979,6 +58913,1947 @@ exports.unstable_unsubscribe = unstable_unsubscribe;
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */,
+/* 55 */,
+/* 56 */,
+/* 57 */,
+/* 58 */,
+/* 59 */,
+/* 60 */,
+/* 61 */,
+/* 62 */,
+/* 63 */,
+/* 64 */,
+/* 65 */,
+/* 66 */,
+/* 67 */,
+/* 68 */,
+/* 69 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__CheckoutList__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Aside__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Forms_PrimaryContactForm__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Forms_NameAndActivityOfBiz__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Forms_AddressOfBiz__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Forms_LLCManaged__ = __webpack_require__(75);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+
+
+
+
+
+
+
+var steps = [{
+    title: 'Customize Package',
+    description: 'Build your custom package'
+}, {
+    title: 'Contact Information',
+    description: 'Primary contact for the business'
+}, {
+    title: 'Business Information',
+    description: 'Basic details about your business'
+}, {
+    title: 'Compliance',
+    description: 'Business and tax setup'
+}, {
+    title: 'Place Order',
+    description: 'We incorporate your business'
+}];
+
+var Checkout = function (_Component) {
+    _inherits(Checkout, _Component);
+
+    function Checkout(props) {
+        _classCallCheck(this, Checkout);
+
+        var _this = _possibleConstructorReturn(this, (Checkout.__proto__ || Object.getPrototypeOf(Checkout)).call(this, props));
+
+        _this.state = {
+            currentStep: 1,
+            currentForm: 3
+        };
+        return _this;
+    }
+
+    _createClass(Checkout, [{
+        key: 'onSaveAndContinue',
+        value: function onSaveAndContinue() {
+            var _state = this.state,
+                currentForm = _state.currentForm,
+                currentStep = _state.currentStep;
+
+            currentForm++;
+
+            if (currentForm === 0) {
+                currentStep = 1;
+            } else if (currentForm > 0 && currentForm < 10) {
+                currentStep = 2;
+            }
+
+            this.setState({ currentForm: currentForm, currentStep: currentStep });
+        }
+    }, {
+        key: 'onBack',
+        value: function onBack() {
+            var _state2 = this.state,
+                currentForm = _state2.currentForm,
+                currentStep = _state2.currentStep;
+
+            currentForm--;
+
+            if (currentForm === 0) {
+                currentStep = 1;
+            } else if (currentForm > 0 && currentForm < 10) {
+                currentStep = 2;
+            }
+
+            this.setState({ currentForm: currentForm, currentStep: currentStep });
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            var _this2 = this;
+
+            var _state3 = this.state,
+                currentStep = _state3.currentStep,
+                currentForm = _state3.currentForm;
+
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                { className: 'container' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__CheckoutList__["a" /* default */], {
+                    steps: steps,
+                    currentStep: currentStep
+                }),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    { className: 'main-checkout-content d-flex justify-content-between flex-lg-row flex-column' },
+                    currentForm === 0 && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__Forms_PrimaryContactForm__["a" /* default */], {
+                        onSaveAndContinue: function onSaveAndContinue() {
+                            return _this2.onSaveAndContinue();
+                        },
+                        onBack: function onBack() {
+                            return _this2.onBack();
+                        }
+                    }),
+                    currentForm === 1 && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__Forms_NameAndActivityOfBiz__["a" /* default */], {
+                        onSaveAndContinue: function onSaveAndContinue() {
+                            return _this2.onSaveAndContinue();
+                        },
+                        onBack: function onBack() {
+                            return _this2.onBack();
+                        }
+                    }),
+                    currentForm === 2 && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__Forms_AddressOfBiz__["a" /* default */], {
+                        onSaveAndContinue: function onSaveAndContinue() {
+                            return _this2.onSaveAndContinue();
+                        },
+                        onBack: function onBack() {
+                            return _this2.onBack();
+                        }
+                    }),
+                    currentForm === 3 && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__Forms_LLCManaged__["a" /* default */], {
+                        onSaveAndContinue: function onSaveAndContinue() {
+                            return _this2.onSaveAndContinue();
+                        },
+                        onBack: function onBack() {
+                            return _this2.onBack();
+                        }
+                    }),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__Aside__["a" /* default */], null)
+                )
+            );
+        }
+    }]);
+
+    return Checkout;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (Checkout);
+
+
+if (document.getElementById('checkout')) {
+    __WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Checkout, null), document.getElementById('checkout'));
+}
+
+/***/ }),
+/* 70 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var CheckoutList = function (_Component) {
+    _inherits(CheckoutList, _Component);
+
+    function CheckoutList() {
+        _classCallCheck(this, CheckoutList);
+
+        return _possibleConstructorReturn(this, (CheckoutList.__proto__ || Object.getPrototypeOf(CheckoutList)).apply(this, arguments));
+    }
+
+    _createClass(CheckoutList, [{
+        key: 'render',
+        value: function render() {
+            var _props = this.props,
+                steps = _props.steps,
+                currentStep = _props.currentStep;
+
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'ul',
+                { className: 'checkout-list' },
+                steps.map(function (step, index) {
+                    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'li',
+                        { className: (currentStep === index ? "active" : "") + (currentStep === index + 1 ? "step-disabled" : ""), key: index },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'a',
+                            { href: '#', className: 'inner' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'span',
+                                { className: 'title' },
+                                step.title
+                            ),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'span',
+                                { className: 'sub-title d-none d-md-block' },
+                                step.description
+                            )
+                        )
+                    );
+                })
+            );
+        }
+    }]);
+
+    return CheckoutList;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (CheckoutList);
+
+/***/ }),
+/* 71 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var Aside = function (_Component) {
+    _inherits(Aside, _Component);
+
+    function Aside() {
+        _classCallCheck(this, Aside);
+
+        return _possibleConstructorReturn(this, (Aside.__proto__ || Object.getPrototypeOf(Aside)).apply(this, arguments));
+    }
+
+    _createClass(Aside, [{
+        key: 'render',
+        value: function render() {
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'aside',
+                { className: 'sidebar-order' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    { className: 'order-summary-wrap' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'h5',
+                        { className: 'text-center' },
+                        'My Order Summary'
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'ul',
+                        { className: 'order-list' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'li',
+                            { className: 'order-item' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'ul',
+                                { className: 'item-list' },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'li',
+                                    null,
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'h5',
+                                        null,
+                                        'Standard LLC Package',
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-question-circle popover-hover', 'data-container': 'body', 'data-toggle': 'popover', 'data-placement': 'bottom', 'data-content': 'Standard LLC Package', 'aria-hidden': 'true' })
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'span',
+                                        { className: 'price' },
+                                        '$149'
+                                    )
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'li',
+                                    null,
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'h5',
+                                        null,
+                                        'Texas State Filing Fee',
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-question-circle popover-hover', 'data-container': 'body', 'data-toggle': 'popover', 'data-placement': 'bottom', 'data-content': 'Texas State Filing Fee', 'aria-hidden': 'true' })
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'span',
+                                        { className: 'price' },
+                                        '$300'
+                                    )
+                                )
+                            ),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('hr', { className: 'border-shadow' })
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'li',
+                            { className: 'item' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'h5',
+                                null,
+                                'Compliance Services'
+                            ),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'ul',
+                                { className: 'item-list' },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'li',
+                                    null,
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'span',
+                                        { className: 'title' },
+                                        'Obum Federal Tox ID (EIN)'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'span',
+                                        { className: 'status' },
+                                        'included'
+                                    )
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'li',
+                                    null,
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'span',
+                                        { className: 'title' },
+                                        'Banking Resolution'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'span',
+                                        { className: 'status' },
+                                        'included'
+                                    )
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'li',
+                                    null,
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'span',
+                                        { className: 'title' },
+                                        'Custom Operating Agreement'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'span',
+                                        { className: 'status' },
+                                        'included'
+                                    )
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'li',
+                                    null,
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'span',
+                                        { className: 'title' },
+                                        'Custom Organizational Minutes'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'span',
+                                        { className: 'status' },
+                                        'included'
+                                    )
+                                )
+                            )
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'li',
+                            { className: 'item' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'h5',
+                                null,
+                                'Expediting Option'
+                            ),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'ul',
+                                { className: 'item-list' },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'li',
+                                    null,
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'span',
+                                        { className: 'title' },
+                                        'Standard Texas Processing'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'span',
+                                        { className: 'status' },
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                            'span',
+                                            { className: 'item-price' },
+                                            'Free'
+                                        )
+                                    )
+                                )
+                            )
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'li',
+                            { className: 'item' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'h5',
+                                null,
+                                'Shipping & Handling'
+                            ),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'ul',
+                                { className: 'item-list' },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'li',
+                                    null,
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'span',
+                                        { className: 'title' },
+                                        '1st className Shipping'
+                                    ),
+                                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                        'span',
+                                        { className: 'status' },
+                                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                            'span',
+                                            { className: 'item-price' },
+                                            'Free'
+                                        )
+                                    )
+                                )
+                            )
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'li',
+                            { className: 'total-item' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('hr', { className: 'border-shadow' }),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'div',
+                                { className: 'total-holder' },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'span',
+                                    { className: 'total' },
+                                    'Your Total:'
+                                ),
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                    'span',
+                                    { className: 'total-price' },
+                                    '$449.00'
+                                )
+                            )
+                        )
+                    )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    { className: 'visual-guarantee mb-4' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'div',
+                        { className: 'visual' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/img19.png', srcSet: 'images/img19.png 2x', alt: 'image description', width: '330', height: '55' }),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'div',
+                            { className: 'visual-hover' },
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/img20.png', srcSet: 'images/img20.png 2x', alt: 'image description', width: '330', height: '138' }),
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'a',
+                                { href: '#', className: 'link' },
+                                'restrictions apply'
+                            )
+                        )
+                    )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    { className: 'questions-block text-lg-left text-center' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'h4',
+                        { className: 'font-weight-light' },
+                        'Have Questions? Call us.'
+                    ),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'span',
+                        null,
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'a',
+                            { href: 'tel:8777770450', className: 'tel text-success font-weight-bold mr-1' },
+                            '(877) 777 0450'
+                        ),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'small',
+                            null,
+                            'M - F: 9am - 6pm CST | Se Habla Espa\xF1ol'
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Aside;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (Aside);
+
+/***/ }),
+/* 72 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var PrimaryContactForm = function (_Component) {
+	_inherits(PrimaryContactForm, _Component);
+
+	function PrimaryContactForm() {
+		_classCallCheck(this, PrimaryContactForm);
+
+		return _possibleConstructorReturn(this, (PrimaryContactForm.__proto__ || Object.getPrototypeOf(PrimaryContactForm)).apply(this, arguments));
+	}
+
+	_createClass(PrimaryContactForm, [{
+		key: 'render',
+		value: function render() {
+			var _props = this.props,
+			    onSaveAndContinue = _props.onSaveAndContinue,
+			    onBack = _props.onBack;
+
+			return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+				'div',
+				{ className: 'checkout-content' },
+				__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+					'h2',
+					{ className: 'h2-checkout' },
+					'Who is the primary contact for the business?'
+				),
+				__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+					'p',
+					null,
+					'This is the person we will contact with all status updates related to the order.'
+				),
+				__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+					'form',
+					{ action: '#', className: 'checkout-form pl-lg-3 pr-lg-4 pl-0 pr-0' },
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'div',
+						{ className: 'form-group row' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'div',
+							{ className: 'col-lg-6 mb-lg-0 mb-3' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'label',
+								null,
+								'First Name',
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'span',
+									{ className: 'symbol' },
+									'*'
+								)
+							),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', className: 'form-control', placeholder: 'Contact first name' })
+						),
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'div',
+							{ className: 'col-lg-6' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'label',
+								null,
+								'Last Name',
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'span',
+									{ className: 'symbol' },
+									'*'
+								)
+							),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', className: 'form-control', placeholder: 'Contact last name' })
+						)
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'div',
+						{ className: 'form-group row' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'div',
+							{ className: 'col-lg-6 mb-lg-0 mb-3' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'label',
+								null,
+								'Phone',
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'span',
+									{ className: 'symbol' },
+									'*'
+								)
+							),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'tel', className: 'form-control phone', placeholder: '(xxx) xxx-xxxx', maxLength: '15' })
+						),
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'div',
+							{ className: 'col-lg-6' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'label',
+								null,
+								'Email',
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'span',
+									{ className: 'symbol' },
+									'*'
+								)
+							),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'email', className: 'form-control', placeholder: 'Contact email address' })
+						)
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'div',
+						{ className: 'row submit-row' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('hr', { className: 'swyft-border' }),
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'div',
+							{ className: 'col-lg-6 col-12 mb-lg-0 mb-3 pl-0' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'span',
+								{ className: 'd-flex align-items-center align-content-center' },
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'span',
+									{ className: 'ico mr-2' },
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/icon-secure.png', srcSet: 'images/icon-secure.png 2x', alt: 'image description', width: '20', height: '20' })
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'span',
+									{ className: 'secure text-blue popover-hover font-weight-normal', 'data-container': 'body', 'data-toggle': 'popover', 'data-placement': 'bottom', 'data-content': 'Your information and data is safe with Swyft Filings. Our servers are located in secured data centers and our website uses SSL 256-bit AES encryption for all sensitive data. Our servers are also backed up daily ensuring your data is never lost or destroyed.', 'aria-hidden': 'true' },
+									'Your information is Safe and Secure.'
+								)
+							)
+						),
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'div',
+							{ className: 'col-lg-6 col-12 d-flex justify-content-lg-between justify-content-end align-items-center pr-lg-1 pr-3 pl-0' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'div',
+								{ className: 'submit-group pl-lg-2 pl-0 pr-lg-0 pr-4' },
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'a',
+									{ className: 'btn-back', onClick: function onClick() {
+											return onBack();
+										} },
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-chevron-left align-middle', 'aria-hidden': 'true' }),
+									'Back'
+								)
+							),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'div',
+								{ className: 'submit-group' },
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'a',
+									{ className: 'btn btn-orange', onClick: function onClick() {
+											return onSaveAndContinue();
+										} },
+									'Save and Continue',
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-chevron-right', 'aria-hidden': 'true' })
+								)
+							)
+						)
+					)
+				)
+			);
+		}
+	}]);
+
+	return PrimaryContactForm;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (PrimaryContactForm);
+
+/***/ }),
+/* 73 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var NameAndActivityOfBiz = function (_Component) {
+	_inherits(NameAndActivityOfBiz, _Component);
+
+	function NameAndActivityOfBiz() {
+		_classCallCheck(this, NameAndActivityOfBiz);
+
+		return _possibleConstructorReturn(this, (NameAndActivityOfBiz.__proto__ || Object.getPrototypeOf(NameAndActivityOfBiz)).apply(this, arguments));
+	}
+
+	_createClass(NameAndActivityOfBiz, [{
+		key: 'render',
+		value: function render() {
+			var _props = this.props,
+			    onSaveAndContinue = _props.onSaveAndContinue,
+			    onBack = _props.onBack;
+
+			return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+				'div',
+				{ className: 'checkout-content' },
+				__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+					'form',
+					{ action: '#', className: 'checkout-form' },
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'h2',
+						{ className: 'h2-checkout' },
+						'What is the name of your business?'
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'p',
+						null,
+						'The state of Texas requires the legal name of a company to be unique from other businesses who are registered with the state. The business name you provide will be researched by Swyft Filings to ensure that it is available for registration.'
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'div',
+						{ className: 'form-group row pl-lg-3 pl-0' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'div',
+							{ className: 'col-lg-6 mb-lg-0 mb-3' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'label',
+								null,
+								'Preferred Business Name',
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'span',
+									{ className: 'symbol' },
+									'*'
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-question-circle popover-hover', 'data-container': 'body', 'data-toggle': 'popover', 'data-placement': 'bottom', 'data-content': 'Preferred Business Name', 'aria-hidden': 'true' })
+							),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', className: 'form-control', placeholder: 'Acme, LLC' })
+						),
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'div',
+							{ className: 'col-lg-6' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'label',
+								null,
+								'Select Your Designator',
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'span',
+									{ className: 'symbol' },
+									'*'
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-question-circle popover-hover', 'data-container': 'body', 'data-toggle': 'popover', 'data-placement': 'bottom', 'data-content': 'Select Your Designator', 'aria-hidden': 'true' })
+							),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'select',
+								{ className: 'form-control' },
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'option',
+									null,
+									'LLC'
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'option',
+									null,
+									'LLC'
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'option',
+									null,
+									'LLC'
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'option',
+									null,
+									'LLC'
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'option',
+									null,
+									'LLC'
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'option',
+									null,
+									'LLC'
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'option',
+									null,
+									'LLC'
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'option',
+									null,
+									'LLC'
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'option',
+									null,
+									'LLC'
+								)
+							)
+						)
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'div',
+						{ className: 'form-group row pl-lg-3 pl-0' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'div',
+							{ className: 'col-lg-6' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'label',
+								null,
+								'Alternate Business Name',
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-question-circle popover-hover', 'data-container': 'body', 'data-toggle': 'popover', 'data-placement': 'bottom', 'data-content': 'Alternate Business Name', 'aria-hidden': 'true' })
+							),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', className: 'form-control', placeholder: 'optional' })
+						)
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'span',
+						{ className: 'img d-block pt-3' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/section-divider.png', srcSet: 'images/section-divider.png 2x', alt: 'image description', width: '740', height: '5' })
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'h2',
+						{ className: 'h2-checkout pt-4' },
+						'What will be your primary business activity?'
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'p',
+						null,
+						'Choose the category below that best describes your business, if the categories provided do not describe your business, please select "Other". Then enter your own description in the box provided. Your answers will help us personalize your state formation documents.'
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'div',
+						{ className: 'form-group row pl-lg-3 pl-0' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'div',
+							{ className: 'col-lg-6' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'label',
+								null,
+								'Choose Your Business Category',
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'span',
+									{ className: 'symbol' },
+									'*'
+								)
+							),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'select',
+								{ className: 'form-control' },
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'option',
+									null,
+									'Choose Your Business Category'
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'option',
+									null,
+									'Choose Your Business Category'
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'option',
+									null,
+									'Choose Your Business Category'
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'option',
+									null,
+									'Choose Your Business Category'
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'option',
+									null,
+									'Choose Your Business Category'
+								)
+							)
+						)
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'div',
+						{ className: 'form-group row pl-lg-3 pl-0' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'div',
+							{ className: 'col-lg-12' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'label',
+								null,
+								'Please describe your business activity',
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'span',
+									{ className: 'symbol' },
+									'*'
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-question-circle popover-hover', 'data-container': 'body', 'data-toggle': 'popover', 'data-placement': 'bottom', 'data-content': 'Please describe your business activity', 'aria-hidden': 'true' })
+							),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('textarea', { className: 'form-control', placeholder: 'Please enter a brief description of your business activity' })
+						)
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'div',
+						{ className: 'row submit-row' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('hr', { className: 'swyft-border' }),
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'div',
+							{ className: 'col-lg-6 col-12 mb-lg-0 mb-3' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'span',
+								{ className: 'd-flex align-items-center align-content-center' },
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'span',
+									{ className: 'ico mr-2' },
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/icon-secure.png', srcSet: 'images/icon-secure.png 2x', alt: 'image description', width: '20', height: '20' })
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'span',
+									{ className: 'secure text-blue popover-hover font-weight-normal', 'data-container': 'body', 'data-toggle': 'popover', 'data-placement': 'bottom', 'data-content': 'Your information and data is safe with Swyft Filings. Our servers are located in secured data centers and our website uses SSL 256-bit AES encryption for all sensitive data. Our servers are also backed up daily ensuring your data is never lost or destroyed.', 'aria-hidden': 'true' },
+									'Your information is Safe and Secure.'
+								)
+							)
+						),
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'div',
+							{ className: 'col-lg-6 col-12 d-flex justify-content-lg-between justify-content-end align-items-center pr-lg-1 pr-3' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'div',
+								{ className: 'submit-group pl-lg-2 pl-0 pr-lg-0 pr-4' },
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'a',
+									{ href: '#', className: 'btn-back', onClick: function onClick() {
+											return onBack();
+										} },
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-chevron-left align-middle', 'aria-hidden': 'true' }),
+									'Back'
+								)
+							),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'div',
+								{ className: 'submit-group' },
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'a',
+									{ className: 'btn btn-orange', onClick: function onClick() {
+											return onSaveAndContinue();
+										} },
+									'Save and Continue',
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-chevron-right', 'aria-hidden': 'true' })
+								)
+							)
+						)
+					)
+				)
+			);
+		}
+	}]);
+
+	return NameAndActivityOfBiz;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (NameAndActivityOfBiz);
+
+/***/ }),
+/* 74 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var AddressOfBiz = function (_Component) {
+	_inherits(AddressOfBiz, _Component);
+
+	function AddressOfBiz() {
+		_classCallCheck(this, AddressOfBiz);
+
+		return _possibleConstructorReturn(this, (AddressOfBiz.__proto__ || Object.getPrototypeOf(AddressOfBiz)).apply(this, arguments));
+	}
+
+	_createClass(AddressOfBiz, [{
+		key: 'render',
+		value: function render() {
+			var _props = this.props,
+			    onSaveAndContinue = _props.onSaveAndContinue,
+			    onBack = _props.onBack;
+
+			return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+				'div',
+				{ className: 'checkout-content' },
+				__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+					'h2',
+					{ className: 'h2-checkout' },
+					'What is your business address?'
+				),
+				__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+					'p',
+					null,
+					'Enter the physical address of your company including the suite number if applicable. The company address must be in the state of Texas and it cannot be a PO Box. If you run a home based business, you may enter your home address, however, we strongly recommend using a commercial address, not your residential address, as this information ',
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'strong',
+						null,
+						'will be publicly available.'
+					)
+				),
+				__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+					'ul',
+					{ className: 'nav nav-pills tabs-checkout border-bottom', id: 'tabs', role: 'tablist' },
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'li',
+						{ className: 'nav-item' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'a',
+							{ className: 'nav-link active d-flex align-items-center', 'data-toggle': 'pill', href: '#tab1', role: 'tab' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'span',
+								{ className: 'circle' },
+								'\xA0'
+							),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'span',
+								{ className: 'tab-text' },
+								'I will provide my own address'
+							)
+						)
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'li',
+						{ className: 'nav-item' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'a',
+							{ className: 'nav-link d-flex align-items-center', 'data-toggle': 'pill', href: '#tab2', role: 'tab' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'span',
+								{ className: 'circle' },
+								'\xA0'
+							),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'span',
+								{ className: 'tab-text' },
+								'I would like Swyft Filings to provide me with a business address'
+							)
+						)
+					)
+				),
+				__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+					'div',
+					{ className: 'tab-content tab-content-checkout', id: 'pills-tabContent' },
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'div',
+						{ className: 'tab-pane fade show active', id: 'tab1' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'form',
+							{ action: '#', className: 'checkout-form pl-lg-3 pl-0' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'div',
+								{ className: 'form-group row' },
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'div',
+									{ className: 'col-lg-6 mb-lg-0 mb-3' },
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+										'label',
+										null,
+										'Address'
+									),
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', className: 'form-control' })
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'div',
+									{ className: 'col-lg-6' },
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+										'label',
+										null,
+										'City'
+									),
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', className: 'form-control' })
+								)
+							),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'div',
+								{ className: 'form-group row' },
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'div',
+									{ className: 'col-lg-6 mb-lg-0 mb-3' },
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+										'label',
+										null,
+										'State'
+									),
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+										'select',
+										{ className: 'form-control' },
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'AL' },
+											'Alabama'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'AK' },
+											'Alaska'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'AZ' },
+											'Arizona'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'AR' },
+											'Arkansas'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'CA' },
+											'California'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'CO' },
+											'Colorado'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'CT' },
+											'Connecticut'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'DE' },
+											'Delaware'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'DC' },
+											'District Of Columbia'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'FL' },
+											'Florida'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'GA' },
+											'Georgia'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'HI' },
+											'Hawaii'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'ID' },
+											'Idaho'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'IL' },
+											'Illinois'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'IN' },
+											'Indiana'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'IA' },
+											'Iowa'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'KS' },
+											'Kansas'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'KY' },
+											'Kentucky'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'LA' },
+											'Louisiana'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'ME' },
+											'Maine'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'MD' },
+											'Maryland'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'MA' },
+											'Massachusetts'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'MI' },
+											'Michigan'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'MN' },
+											'Minnesota'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'MS' },
+											'Mississippi'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'MO' },
+											'Missouri'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'MT' },
+											'Montana'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'NE' },
+											'Nebraska'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'NV' },
+											'Nevada'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'NH' },
+											'New Hampshire'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'NJ' },
+											'New Jersey'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'NM' },
+											'New Mexico'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'NY' },
+											'New York'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'NC' },
+											'North Carolina'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'ND' },
+											'North Dakota'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'OH' },
+											'Ohio'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'OK' },
+											'Oklahoma'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'OR' },
+											'Oregon'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'PA' },
+											'Pennsylvania'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'RI' },
+											'Rhode Island'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'SC' },
+											'South Carolina'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'SD' },
+											'South Dakota'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'TN' },
+											'Tennessee'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'TX' },
+											'Texas'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'UT' },
+											'Utah'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'VT' },
+											'Vermont'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'VA' },
+											'Virginia'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'WA' },
+											'Washington'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'WV' },
+											'West Virginia'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'WI' },
+											'Wisconsin'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'option',
+											{ value: 'WY' },
+											'Wyoming'
+										)
+									)
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'div',
+									{ className: 'col-lg-6' },
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+										'label',
+										null,
+										'Zip Code'
+									),
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', { type: 'text', className: 'form-control' })
+								)
+							),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'div',
+								{ className: 'row submit-row' },
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'div',
+									{ className: 'col-lg-6 col-12 mb-lg-0 mb-3 pl-lg-0 pl-3' },
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+										'span',
+										{ className: 'd-flex align-items-center align-content-center' },
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'span',
+											{ className: 'ico mr-2' },
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/icon-secure.png', srcSet: 'images/icon-secure.png 2x', alt: 'image description', width: '20', height: '20' })
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'span',
+											{ className: 'secure text-blue popover-hover font-weight-normal', 'data-container': 'body', 'data-toggle': 'popover', 'data-placement': 'bottom', 'data-content': 'Your information and data is safe with Swyft Filings. Our servers are located in secured data centers and our website uses SSL 256-bit AES encryption for all sensitive data. Our servers are also backed up daily ensuring your data is never lost or destroyed.', 'aria-hidden': 'true' },
+											'Your information is Safe and Secure.'
+										)
+									)
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'div',
+									{ className: 'col-lg-6 col-12 d-flex justify-content-lg-between justify-content-end align-items-center pr-lg-1 pr-3' },
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+										'div',
+										{ className: 'submit-group pl-lg-2 pl-0 pr-lg-0 pr-4' },
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'a',
+											{ href: '#', className: 'btn-back', onClick: function onClick() {
+													return onBack();
+												} },
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-chevron-left align-middle', 'aria-hidden': 'true' }),
+											'Back'
+										)
+									),
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+										'div',
+										{ className: 'submit-group' },
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'a',
+											{ href: '#', className: 'btn btn-orange', onClick: function onClick() {
+													return onSaveAndContinue();
+												} },
+											'Save and Continue',
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-chevron-right', 'aria-hidden': 'true' })
+										)
+									)
+								)
+							)
+						)
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'div',
+						{ className: 'tab-pane fade', id: 'tab2' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'form',
+							{ action: '#', className: 'checkout-form' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'div',
+								{ className: 'address-info' },
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'div',
+									{ className: 'row mb-3' },
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+										'div',
+										{ className: 'col-lg-8 col-md-8 mb-md-0 mb-3' },
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'h4',
+											{ className: 'mb-4' },
+											'Business Street Address: ',
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+												'a',
+												{ href: '#', className: 'link d-md-inline d-block' },
+												'(view address info)'
+											)
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'h5',
+											{ className: 'text-black font-open-sans font-weight-medium mb-4' },
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+												'strong',
+												null,
+												'5 reasons'
+											),
+											' why you need a real street address:'
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'ul',
+											{ className: 'item-list' },
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+												'li',
+												null,
+												'A physical address for your business.'
+											),
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+												'li',
+												null,
+												'All mail is forwarded directly to the address of your choosing.'
+											),
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+												'li',
+												null,
+												'Travel freely without ever missing a letter or package.'
+											),
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+												'li',
+												null,
+												'Keeps your home address from becoming public record.'
+											),
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+												'li',
+												null,
+												'A business address is more professional than a residential address.'
+											)
+										)
+									),
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+										'div',
+										{ className: 'col-lg-4 col-md-4 mb-md-0 mb-2' },
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'div',
+											{ className: 'order-block text-center' },
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+												'h5',
+												{ className: 'mb-1 font-weight-bold' },
+												'1st month is free'
+											),
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+												'p',
+												{ className: 'mb-4 font-weight-normal' },
+												'Only $29/mo thereafter'
+											),
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+												'div',
+												{ className: 'btn-holder mb-4' },
+												__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+													'a',
+													{ href: '#', className: 'btn btn-green rounded-0 text-white' },
+													__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-check', 'aria-hidden': 'true' }),
+													'Added to order'
+												)
+											),
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+												'span',
+												{ className: 'note  font-weight-normal' },
+												'To proceed, simply click on the',
+												__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+												' "Save and Continue" button below.'
+											)
+										)
+									)
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'p',
+									null,
+									'You will receive an email with additional steps required to complete your new address setup.'
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'div',
+									{ className: 'row submit-row' },
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+										'div',
+										{ className: 'col-lg-6 col-12 mb-lg-0 mb-3' },
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'span',
+											{ className: 'd-flex align-items-center align-content-center' },
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+												'span',
+												{ className: 'ico mr-2' },
+												__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/icon-secure.png', srcSet: 'images/icon-secure.png 2x', alt: 'image description', width: '20', height: '20' })
+											),
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+												'span',
+												{ className: 'secure text-blue popover-hover font-weight-normal', 'data-container': 'body', 'data-toggle': 'popover', 'data-placement': 'bottom', 'data-content': 'Your information and data is safe with Swyft Filings. Our servers are located in secured data centers and our website uses SSL 256-bit AES encryption for all sensitive data. Our servers are also backed up daily ensuring your data is never lost or destroyed.', 'aria-hidden': 'true' },
+												'Your information is Safe and Secure.'
+											)
+										)
+									),
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+										'div',
+										{ className: 'col-lg-6 col-12 d-flex justify-content-between align-items-center pr-lg-1 pr-3' },
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'div',
+											{ className: 'submit-group' },
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+												'a',
+												{ href: '#', className: 'btn-back', onClick: function onClick() {
+														return onBack();
+													} },
+												__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-chevron-left align-middle', 'aria-hidden': 'true' }),
+												'Back'
+											)
+										),
+										__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+											'div',
+											{ className: 'submit-group' },
+											__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+												'a',
+												{ className: 'btn btn-orange', onClick: function onClick() {
+														return onSaveAndContinue();
+													} },
+												'Save and Continue',
+												__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-chevron-right', 'aria-hidden': 'true' })
+											)
+										)
+									)
+								)
+							)
+						)
+					)
+				)
+			);
+		}
+	}]);
+
+	return AddressOfBiz;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (AddressOfBiz);
+
+/***/ }),
+/* 75 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
+
+
+var LLCManaged = function (_Component) {
+	_inherits(LLCManaged, _Component);
+
+	function LLCManaged(props) {
+		_classCallCheck(this, LLCManaged);
+
+		var _this = _possibleConstructorReturn(this, (LLCManaged.__proto__ || Object.getPrototypeOf(LLCManaged)).call(this, props));
+
+		_this.state = {
+			selectedOption: 'option1',
+			memberCnt: 1,
+			memberNames: ['']
+		};
+
+		_this.handleOptionChange = _this.handleOptionChange.bind(_this);
+		_this.onAddMember = _this.onAddMember.bind(_this);
+		_this.onRemoveMember = _this.onRemoveMember.bind(_this);
+		return _this;
+	}
+
+	_createClass(LLCManaged, [{
+		key: 'handleOptionChange',
+		value: function handleOptionChange(changeEvent) {
+			this.setState({ selectedOption: changeEvent.target.value });
+		}
+	}, {
+		key: 'onAddMember',
+		value: function onAddMember() {
+			var _state = this.state,
+			    memberCnt = _state.memberCnt,
+			    memberNames = _state.memberNames;
+
+
+			memberCnt++;
+			memberNames.push('');
+			this.setState({ memberCnt: memberCnt, memberNames: memberNames });
+		}
+	}, {
+		key: 'onChangeMemberInput',
+		value: function onChangeMemberInput(i, e) {
+			var memberNames = this.state.memberNames;
+
+
+			memberNames[i] = e.target.value;
+			this.setState({ memberNames: memberNames });
+		}
+	}, {
+		key: 'onRemoveMember',
+		value: function onRemoveMember(i) {
+			var _state2 = this.state,
+			    memberNames = _state2.memberNames,
+			    memberCnt = _state2.memberCnt;
+
+
+			memberCnt--;
+			memberNames.splice(i, 1);
+			this.setState({ memberCnt: memberCnt, memberNames: memberNames });
+		}
+	}, {
+		key: 'render',
+		value: function render() {
+			var _this2 = this;
+
+			var _props = this.props,
+			    onSaveAndContinue = _props.onSaveAndContinue,
+			    onBack = _props.onBack;
+			var _state3 = this.state,
+			    selectedOption = _state3.selectedOption,
+			    memberCnt = _state3.memberCnt,
+			    memberNames = _state3.memberNames;
+
+			var memberInputs = [];
+
+			var _loop = function _loop(i) {
+				memberInputs.push(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+					'div',
+					{ className: 'member-item', key: i },
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'div',
+						{ className: 'label-item' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'span',
+							{ className: 'label-text' },
+							'Member ',
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'span',
+								{ className: 'member-num' },
+								'#'
+							)
+						)
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'div',
+						{ className: 'input-item' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'label',
+							null,
+							'Full Name'
+						),
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', {
+							type: 'text',
+							className: 'form-control',
+							value: memberNames[i],
+							onChange: function onChange(e) {
+								return _this2.onChangeMemberInput(i, e);
+							}
+						}),
+						i > 0 && __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'a',
+							{ className: 'remove', onClick: function onClick() {
+									return _this2.onRemoveMember(i);
+								} },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-times', 'aria-hidden': 'true' })
+						)
+					)
+				));
+			};
+
+			for (var i = 0; i < memberCnt; i++) {
+				_loop(i);
+			}
+
+			return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+				'div',
+				{ className: 'checkout-content' },
+				__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+					'form',
+					{ action: '#', className: 'checkout-form' },
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'h2',
+						{ className: 'h2-checkout' },
+						'How will your LLC be managed?',
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-question-circle popover-hover', 'data-container': 'body', 'data-toggle': 'popover', 'data-placement': 'bottom', 'data-content': 'How will your LLC be managed?', 'aria-hidden': 'true' })
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'div',
+						{ className: 'form-check d-flex pt-3' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'span',
+							{ className: 'jcf-radio' + (selectedOption === 'option1' ? ' jcf-checked' : '') },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', {
+								className: 'form-check-input',
+								type: 'radio',
+								name: 'exampleRadios',
+								id: 'exampleRadios1',
+								value: 'option1',
+								checked: selectedOption === 'option1',
+								onChange: this.handleOptionChange
+							}),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', null)
+						),
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'label',
+							{ className: 'form-check-label font-weight-normal mb-0', htmlFor: 'exampleRadios1' },
+							'The LLC will be managed by ',
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'strong',
+								null,
+								'member(s)'
+							)
+						)
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'div',
+						{ className: 'form-check d-flex' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'span',
+							{ className: 'jcf-radio' + (selectedOption === 'option2' ? ' jcf-checked' : '') },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('input', {
+								className: 'form-check-input',
+								type: 'radio',
+								name: 'exampleRadios',
+								id: 'exampleRadios2',
+								value: 'option2',
+								checked: !selectedOption,
+								onChange: this.handleOptionChange
+							}),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', null)
+						),
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'label',
+							{ className: 'form-check-label font-weight-normal mb-0', htmlFor: 'exampleRadios2' },
+							'The LLC will be managed by ',
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'strong',
+								null,
+								'manager(s)'
+							)
+						)
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'h4',
+						{ className: 'font-weight-light pt-2' },
+						'Who are the Members (owners) of the business?'
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'div',
+						{ className: 'row-group' },
+						memberInputs
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'div',
+						{ className: 'add-row' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'a',
+							{ className: 'btn-add', onClick: function onClick() {
+									return _this2.onAddMember();
+								} },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-plus-circle', 'aria-hidden': 'true' }),
+							'Add a Member'
+						)
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'div',
+						{ className: 'row submit-row' },
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('hr', { className: 'swyft-border' }),
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'div',
+							{ className: 'col-lg-6 col-12 mb-lg-0 mb-3' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'span',
+								{ className: 'd-flex align-items-center align-content-center' },
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'span',
+									{ className: 'ico mr-2' },
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'images/icon-secure.png', srcSet: 'images/icon-secure.png 2x', alt: 'image description', width: '20', height: '20' })
+								),
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'span',
+									{ className: 'secure text-blue popover-hover font-weight-normal', 'data-container': 'body', 'data-toggle': 'popover', 'data-placement': 'bottom', 'data-content': 'Your information and data is safe with Swyft Filings. Our servers are located in secured data centers and our website uses SSL 256-bit AES encryption for all sensitive data. Our servers are also backed up daily ensuring your data is never lost or destroyed.', 'aria-hidden': 'true' },
+									'Your information is Safe and Secure.'
+								)
+							)
+						),
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'div',
+							{ className: 'col-lg-6 col-12 d-flex justify-content-lg-between justify-content-end align-items-center pr-lg-1 pr-3' },
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'div',
+								{ className: 'submit-group pl-lg-2 pl-0 pr-lg-0 pr-4' },
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'a',
+									{ href: '#', className: 'btn-back', onClick: function onClick() {
+											return onBack();
+										} },
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-chevron-left align-middle', 'aria-hidden': 'true' }),
+									'Back'
+								)
+							),
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'div',
+								{ className: 'submit-group' },
+								__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+									'a',
+									{ className: 'btn btn-orange', onClick: function onClick() {
+											return onSaveAndContinue();
+										} },
+									'Save and Continue',
+									__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fa fa-chevron-right', 'aria-hidden': 'true' })
+								)
+							)
+						)
+					)
+				)
+			);
+		}
+	}]);
+
+	return LLCManaged;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+/* harmony default export */ __webpack_exports__["a"] = (LLCManaged);
 
 /***/ })
 /******/ ]);

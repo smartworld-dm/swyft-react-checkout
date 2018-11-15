@@ -1374,6 +1374,7 @@ ul{
 	margin: 0;
 	left: 0;
 	top: 0;
+	opacity: 0;
 }
 
 .jcf-radio.jcf-checked span {
@@ -6462,4 +6463,11 @@ sup{
 	right:10px;
 	color:#001fb8;
 	opacity:1;
+}
+.add-row{
+	.btn-add {
+		font-weight: 600;
+		color: #47b475 !important;
+		cursor: pointer;
+	}
 }
