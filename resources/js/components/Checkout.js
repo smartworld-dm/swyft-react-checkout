@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 
 import CheckoutList from './CheckoutList';
 import Aside from './Aside';
-import PrimaryContactForm from './Forms/PrimaryContactForm';
+
+// Forms Component
+import PrimaryContact from './Forms/PrimaryContact';
 import NameAndActivityOfBiz from './Forms/NameAndActivityOfBiz';
 import AddressOfBiz from './Forms/AddressOfBiz';
 import LLCManaged from './Forms/LLCManaged';
+import DirectorsOfCorp from './Forms/DirectorsOfCorp';
 
 const steps = [
     {
@@ -37,7 +40,7 @@ export default class Checkout extends Component {
         
         this.state = { 
             currentStep: 1,
-            currentForm: 3 
+            currentForm: 4 
         };
     }
 
@@ -78,7 +81,7 @@ export default class Checkout extends Component {
                 <div className="main-checkout-content d-flex justify-content-between flex-lg-row flex-column">
                     { 
                         currentForm === 0 &&
-                        <PrimaryContactForm 
+                        <PrimaryContact
                             onSaveAndContinue={() => this.onSaveAndContinue()}
                             onBack={() => this.onBack()}
                         />
@@ -100,6 +103,13 @@ export default class Checkout extends Component {
                     { 
                         currentForm === 3 &&
                         <LLCManaged
+                            onSaveAndContinue={() => this.onSaveAndContinue()}
+                            onBack={() => this.onBack()}
+                        />
+                    }
+                    { 
+                        currentForm === 4 &&
+                        <DirectorsOfCorp
                             onSaveAndContinue={() => this.onSaveAndContinue()}
                             onBack={() => this.onBack()}
                         />

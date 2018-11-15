@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-export default class PrimaryContactForm extends Component {
+export default class PrimaryContact extends Component {
     render() {
     	const { onSaveAndContinue, onBack } = this.props;
         return (
