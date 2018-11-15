@@ -10,6 +10,7 @@ import NameAndActivityOfBiz from './Forms/NameAndActivityOfBiz';
 import AddressOfBiz from './Forms/AddressOfBiz';
 import LLCManaged from './Forms/LLCManaged';
 import DirectorsOfCorp from './Forms/DirectorsOfCorp';
+import RegisteredAgent from './Forms/RegisteredAgent';
 
 const steps = [
     {
@@ -63,8 +64,10 @@ export default class Checkout extends Component {
 
         if (currentForm === 0) {
             currentStep = 1;
-        } else if (currentForm > 0 && currentForm < 10) {
+        } else if (currentForm > 0 && currentForm < 5) {
             currentStep = 2;
+        } else if (currentForm > 5) {
+            currentStep = 3;
         }
 
         this.setState({ currentForm, currentStep });
@@ -110,6 +113,13 @@ export default class Checkout extends Component {
                     { 
                         currentForm === 4 &&
                         <DirectorsOfCorp
+                            onSaveAndContinue={() => this.onSaveAndContinue()}
+                            onBack={() => this.onBack()}
+                        />
+                    }
+                    { 
+                        currentForm === 5 &&
+                        <RegisteredAgent
                             onSaveAndContinue={() => this.onSaveAndContinue()}
                             onBack={() => this.onBack()}
                         />
