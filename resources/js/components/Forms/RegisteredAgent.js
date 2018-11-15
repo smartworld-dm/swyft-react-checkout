@@ -47,13 +47,13 @@ export default class RegisteredAgent extends Component {
 								</div>
 								<div className="col-lg-6 col-12 d-flex justify-content-lg-between justify-content-end align-items-center pr-lg-1 pr-3">
 									<div className="submit-group pl-lg-2 pl-0 pr-lg-0 pr-4">
-										<a href="#" className="btn-back">
+										<a className="btn-back" onClick={() => onBack()}>
 											<i className="fa fa-chevron-left align-middle" aria-hidden="true"></i>
 											Back
 										</a>
 									</div>
 									<div className="submit-group">
-										<a href="#" className="btn btn-orange">
+										<a className="btn btn-orange" onClick={() => onSaveAndContinue()}>
 											Save and Continue
 											<i className="fa fa-chevron-right" aria-hidden="true"></i>
 										</a>
@@ -167,13 +167,13 @@ export default class RegisteredAgent extends Component {
 								</div>
 								<div className="col-lg-6 col-12 d-flex justify-content-lg-between justify-content-end align-items-center pr-lg-1 pr-3">
 									<div className="submit-group pl-lg-2 pl-0 pr-lg-0 pr-4">
-										<a href="#" className="btn-back" onClick={() => onBack()}>
+										<a className="btn-back" onClick={() => onBack()}>
 											<i className="fa fa-chevron-left align-middle" aria-hidden="true"></i>
 											Back
 										</a>
 									</div>
 									<div className="submit-group">
-										<a href="#" className="btn btn-orange" onClick={() => onSaveAndContinue()}>
+										<a className="btn btn-orange" onClick={() => onSaveAndContinue()}>
 											Save and Continue
 											<i className="fa fa-chevron-right" aria-hidden="true"></i>
 										</a>
