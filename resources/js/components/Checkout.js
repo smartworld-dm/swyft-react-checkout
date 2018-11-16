@@ -13,6 +13,7 @@ import DirectorsOfCorp from './Forms/DirectorsOfCorp';
 import RegisteredAgent from './Forms/RegisteredAgent';
 import BizLicensesAndPermits from './Forms/BizLicensesAndPermits';
 import ReduceTaxes from './Forms/ReduceTaxes';
+import BizBanking from './Forms/BizBanking';
 
 const steps = [
     {
@@ -43,7 +44,7 @@ export default class Checkout extends Component {
         
         this.state = { 
             currentStep: 1,
-            currentForm: 5 
+            currentForm: 7 
         };
     }
 
@@ -138,6 +139,13 @@ export default class Checkout extends Component {
                     { 
                         currentForm === 7 &&
                         <ReduceTaxes
+                            onSaveAndContinue={() => this.onSaveAndContinue()}
+                            onBack={() => this.onBack()}
+                        />
+                    }
+                    { 
+                        currentForm === 8 &&
+                        <BizBanking
                             onSaveAndContinue={() => this.onSaveAndContinue()}
                             onBack={() => this.onBack()}
                         />
