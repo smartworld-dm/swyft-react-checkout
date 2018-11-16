@@ -15,6 +15,7 @@ import BizLicensesAndPermits from './Forms/BizLicensesAndPermits';
 import ReduceTaxes from './Forms/ReduceTaxes';
 import BizBanking from './Forms/BizBanking';
 import PaymentOption from './Forms/PaymentOption';
+import CompleteOrder from './Forms/CompleteOrder';
 
 const steps = [
     {
@@ -158,6 +159,13 @@ export default class Checkout extends Component {
                     { 
                         currentForm === 9 &&
                         <PaymentOption
+                            onSaveAndContinue={() => this.onSaveAndContinue()}
+                            onBack={() => this.onBack()}
+                        />
+                    }
+                    { 
+                        currentForm === 10 &&
+                        <CompleteOrder
                             onSaveAndContinue={() => this.onSaveAndContinue()}
                             onBack={() => this.onBack()}
                         />
