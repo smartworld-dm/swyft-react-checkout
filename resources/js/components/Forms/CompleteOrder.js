@@ -107,7 +107,7 @@ export default class CompleteOrder extends Component {
 						<div className="form-group d-flex flex-lg-row flex-column payment-group-check pl-lg-3 pl-0 pr-lg-3 pr-0">
 							<div>
 								<div className="form-check d-flex p-0 mb-lg-0 mb-3">
-									<label className="form-check-label d-flex align-items-center justify-content-center rounded form-check-box mb-0" for="exampleRadios1">
+									<label className="form-check-label d-flex align-items-center justify-content-center rounded form-check-box mb-0" htmlFor="exampleRadios1">
 										<span className={'jcf-radio' + (selectedOption === 'option1' ? ' jcf-checked' : '')}>
 										<input 
 											className="form-check-input" 
@@ -126,7 +126,7 @@ export default class CompleteOrder extends Component {
 							</div>
 							<div>
 								<div className="form-check d-flex p-0 mb-0">
-									<label className="form-check-label d-flex align-items-center justify-content-center rounded form-check-box  mb-0" for="exampleRadios2">
+									<label className="form-check-label d-flex align-items-center justify-content-center rounded form-check-box  mb-0" htmlFor="exampleRadios2">
 										<span className={'jcf-radio' + (selectedOption === 'option2' ? ' jcf-checked' : '')}>
 											<input 
 												className="form-check-input" 
@@ -147,7 +147,7 @@ export default class CompleteOrder extends Component {
 						<div className="form-group row align-items-center pl-lg-3 pl-0 pr-lg-3 pr-0">
 							<div className="col-lg-6">
 								<label>Card Number<span className="symbol">*</span></label>
-								<input className="form-control  payment-control number" placeholder="xxxx xxxx xxxx xxxx" maxlength="19" />
+								<input className="form-control  payment-control number" placeholder="xxxx xxxx xxxx xxxx" maxLength="19" />
 							</div>
 							<div className="col-lg-6">
 								<div className="mt-4">
@@ -166,7 +166,7 @@ export default class CompleteOrder extends Component {
 							</div>
 							<div className="col-lg-3 mb-lg-0 mb-3">
 								<label>CVC<span className="symbol">*</span><i className="fa fa-question-circle popover-hover ml-2" data-container="body" data-toggle="popover" data-placement="bottom" data-content="CVC" aria-hidden="true"></i></label>
-								<input type="text" className="form-control payment-control" placeholder="123" maxlength="3" />
+								<input type="text" className="form-control payment-control" placeholder="123" maxLength="3" />
 							</div>
 							<div className="col-lg-6">
 								<div className="d-flex align-items-center mt-md-4 mt-0 mb-lg-0 mb-3">
@@ -185,7 +185,7 @@ export default class CompleteOrder extends Component {
 						<div className="form-group row pl-lg-3 pl-0">
 							<div className="col-lg-3">
 								<label>Billing Zip Code <span className="symbol">*</span></label>
-								<input type="text" className="form-control payment-control zip-code" placeholder="5 digit zip code" maxlength="5" />
+								<input type="text" className="form-control payment-control zip-code" placeholder="5 digit zip code" maxLength="5" />
 							</div>
 						</div>
 					</div>

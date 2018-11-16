@@ -17,6 +17,8 @@ import BizBanking from './Forms/BizBanking';
 import PaymentOption from './Forms/PaymentOption';
 import CompleteOrder from './Forms/CompleteOrder';
 import CompliancePackage from './Forms/CompliancePackage';
+import AdditionalServices from './Forms/AdditionalServices';
+import BizbankAccount from './Forms/BizbankAccount';
 
 const steps = [
     {
@@ -174,6 +176,20 @@ export default class Checkout extends Component {
                     { 
                         currentForm === 11 &&
                         <CompliancePackage
+                            onSaveAndContinue={() => this.onSaveAndContinue()}
+                            onBack={() => this.onBack()}
+                        />
+                    }
+                    { 
+                        currentForm === 12 &&
+                        <AdditionalServices
+                            onSaveAndContinue={() => this.onSaveAndContinue()}
+                            onBack={() => this.onBack()}
+                        />
+                    }
+                    { 
+                        currentForm === 13 &&
+                        <BizbankAccount
                             onSaveAndContinue={() => this.onSaveAndContinue()}
                             onBack={() => this.onBack()}
                         />
