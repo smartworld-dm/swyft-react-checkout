@@ -16,6 +16,7 @@ import ReduceTaxes from './Forms/ReduceTaxes';
 import BizBanking from './Forms/BizBanking';
 import PaymentOption from './Forms/PaymentOption';
 import CompleteOrder from './Forms/CompleteOrder';
+import CompliancePackage from './Forms/CompliancePackage';
 
 const steps = [
     {
@@ -46,7 +47,7 @@ export default class Checkout extends Component {
         
         this.state = { 
             currentStep: 1,
-            currentForm: 8 
+            currentForm: 10 
         };
     }
 
@@ -166,6 +167,13 @@ export default class Checkout extends Component {
                     { 
                         currentForm === 10 &&
                         <CompleteOrder
+                            onSaveAndContinue={() => this.onSaveAndContinue()}
+                            onBack={() => this.onBack()}
+                        />
+                    }
+                    { 
+                        currentForm === 11 &&
+                        <CompliancePackage
                             onSaveAndContinue={() => this.onSaveAndContinue()}
                             onBack={() => this.onBack()}
                         />
