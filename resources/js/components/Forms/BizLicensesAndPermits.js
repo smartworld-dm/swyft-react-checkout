@@ -58,7 +58,7 @@ export default class BizLicensesAndPermits extends Component {
 									name="exampleRadios" 
 									id="exampleRadios2" 
 									value="option2"
-									checked={!selectedOption} 
+									checked={selectedOption === 'option2'} 
 									onChange={this.handleOptionChange}
 								/>
 								<span></span>

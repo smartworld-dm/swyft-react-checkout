@@ -20,6 +20,7 @@ import CompliancePackage from './Forms/CompliancePackage';
 import AdditionalServices from './Forms/AdditionalServices';
 import BizbankAccount from './Forms/BizbankAccount';
 import ProtectPersonalAssets from './Forms/ProtectPersonalAssets';
+import ThankYou from './Forms/ThankYou';
 
 const steps = [
     {
@@ -50,7 +51,7 @@ export default class Checkout extends Component {
         
         this.state = { 
             currentStep: 1,
-            currentForm: 12 
+            currentForm: 0 
         };
     }
 
@@ -201,6 +202,10 @@ export default class Checkout extends Component {
                             onSaveAndContinue={() => this.onSaveAndContinue()}
                             onBack={() => this.onBack()}
                         />
+                    }
+                    { 
+                        currentForm === 15 &&
+                        <ThankYou />
                     }
                     <Aside />
                 </div>

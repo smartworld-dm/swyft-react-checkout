@@ -4,7 +4,6 @@
 /storage/*.key
 /vendor
 /.idea
-/.vscode
 /.vagrant
 Homestead.json
 Homestead.yaml
@@ -13,3 +12,6 @@ yarn-error.log
 .env
 .phpunit.result.cache
 .DS_Store
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
