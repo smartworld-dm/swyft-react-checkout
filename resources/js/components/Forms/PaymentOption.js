@@ -36,7 +36,7 @@ export default class PaymentOption extends Component {
 										name="exampleRadios" 
 										id="exampleRadios2" 
 										value="option1"
-										checked={!selectedOption} 
+										checked={selectedOption === 'option1'} 
 										onChange={this.handleOptionChange}
 									/>
 									<span></span>
@@ -57,7 +57,7 @@ export default class PaymentOption extends Component {
 										name="exampleRadios" 
 										id="exampleRadios2" 
 										value="option2"
-										checked={!selectedOption} 
+										checked={selectedOption === 'option1'} 
 										onChange={this.handleOptionChange}
 									/>
 									<span></span>
