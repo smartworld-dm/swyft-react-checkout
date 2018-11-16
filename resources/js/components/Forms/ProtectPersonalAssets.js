@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-export default class BizLicensesAndPermits extends Component {
+export default class ProtectPersonalAssets extends Component {
 	constructor(props) {
         super(props);
         
@@ -20,34 +20,39 @@ export default class BizLicensesAndPermits extends Component {
     	const { onSaveAndContinue, onBack } = this.props;
     	const { selectedOption } = this.state;
         return (
-            <div className="checkout-content">
-				<h2 className="h2-checkout">Get your essential business licenses and permits</h2>
-				<p>Many businesses need to obtain at least one license (sometimes several) before they can legally begin their normal daily operations. Let us take the hassle out of researching and finding the licenses and permits you need to operate your business.</p>
-				<span className="title mb-2">Business Licenses and Permits Package <a href="#" className="text-orange">(view sample package)</a></span>
-				<p className="mb-4">The Business Licenses and Permits Package tells you exactly which state, federal, and local government licenses, permits, and tax registrations that are required for your business. Your customized Business License Compliance Package will include:</p>
-				<ul className="benefits-list font-weight-normal mb-4">
-					<li><span>An overview of the licenses, permits, and tax registrations required for your business</span></li>
-					<li><span>Licensing authority contact information, including name, address, telephone number, etc.</span></li>
-					<li><span>The actual license, permit, and tax registration applications and associated documents</span></li>
+            <div className="checkout-content blue-gradient px-lg-3 px-2 py-4">
+				<h2 className="h2-checkout text-center">Minutes Manager - Protect Your Personal Assets</h2>
+				<span className="title text-center mb-3">Manage Your Business Records Properly</span>
+				<span className="img mb-3 d-block">
+					<img src="images/section-divider.png" srcSet="images/section-divider.png 2x" alt="image description" width="740" height="5" />
+				</span>
+				<p>Keeping complete yearly up-to-date company records or "minutes" is critical for maintaining your company's limited liability protection, tax advantages, and other corporate benefits - and for corporations, it's the law.</p>
+				<p>Many business owners find it difficult to keep up with this time-consuming requirement. We created Minutes Manager to make it quick and easy to produce professional corporate minutes online. Minutes Manager is an online service that makes it easy to create professionally formatted, state-compliant corporate minutes right through your Swyft Filings account.</p>
+				<h5 className="h5-checkout mb-0">Not sure which company activities to record? We provide all the relevant questions. Simply fill in the answers and we'll create your minutes. It's that easy. You'll enjoy:</h5>
+				<ul className="benefits-list second-list mb-4">
+					<li><span>Unlimited corporate minutes for one whole year</span></li>
+					<li><span>Professionally formatted minutes, emailed to you within 24 hours</span></li>
+					<li><span>Fast and easy compliance with corporate requirements</span></li>
+					<li><span>One membership is good for all of your incorporations</span></li>
 				</ul>
-				<form action="#" className="checkout-form">
-					<h5 className="h5-checkout">Would you like to receive a Business Licenses and Permits Package for your business?</h5>
+				<form className="checkout-form">
+					<h5 className="h5-checkout">Would you like to subscribe to the Minutes Manager?</h5>
 					<div className="form-group">
-						<div className="form-check d-flex pt-3">
+						<div className="form-check d-flex">
 							<span className={'jcf-radio' + (selectedOption === 'option1' ? ' jcf-checked' : '')}>
 								<input 
 									className="form-check-input" 
 									type="radio" 
 									name="exampleRadios" 
 									id="exampleRadios1" 
-									value="option1" 
-									checked={selectedOption === 'option1'}
+									value="option1"
+									checked={selectedOption === 'option1'} 
 									onChange={this.handleOptionChange}
 								/>
 								<span></span>
 							</span>
-							<label className="form-check-label font-weight-normal mb-0" htmlFor="exampleRadios1">
-								Yes, I would like a Business Licenses and Permits Package ($99)
+							<label className="form-check-label" htmlFor="exampleRadios1">
+								Yes, sign me up for Minutes Manger ($5/month) — <small className="font-italic">You may cancel at anytime</small>
 							</label>
 						</div>
 						<div className="form-check d-flex">
@@ -58,12 +63,12 @@ export default class BizLicensesAndPermits extends Component {
 									name="exampleRadios" 
 									id="exampleRadios2" 
 									value="option2"
-									checked={!selectedOption} 
+									checked={selectedOption === 'option2'} 
 									onChange={this.handleOptionChange}
 								/>
 								<span></span>
 							</span>
-							<label className="form-check-label font-weight-normal mb-0" htmlFor="exampleRadios2">
+							<label className="form-check-label" htmlFor="exampleRadios2">
 								No thank you
 							</label>
 						</div>

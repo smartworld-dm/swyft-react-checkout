@@ -6,7 +6,7 @@ export default class LLCManaged extends Component {
         super(props);
         
         this.state = { 
-            selectedOption: 'option1',
+            selectedOption: '',
             memberCnt: 1,
             memberNames: ['']
         };

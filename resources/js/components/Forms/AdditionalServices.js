@@ -6,9 +6,9 @@ export default class AdditionalServices extends Component {
         super(props);
         
         this.state = { 
-            selectedOptionInGroup1: 'option1',
-            selectedOptionInGroup2: 'option3',
-            selectedOptionInGroup3: 'option5',
+            selectedOptionInGroup1: '',
+            selectedOptionInGroup2: '',
+            selectedOptionInGroup3: '',
         };
 
         this.handleOptionInGroup1Change = this.handleOptionInGroup1Change.bind(this);

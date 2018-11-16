@@ -6,7 +6,7 @@ export default class CompleteOrder extends Component {
         super(props);
         
         this.state = { 
-            selectedOption: 'option1',
+            selectedOption: '',
         };
 
         this.handleOptionChange = this.handleOptionChange.bind(this);
