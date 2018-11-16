@@ -14,6 +14,7 @@ import RegisteredAgent from './Forms/RegisteredAgent';
 import BizLicensesAndPermits from './Forms/BizLicensesAndPermits';
 import ReduceTaxes from './Forms/ReduceTaxes';
 import BizBanking from './Forms/BizBanking';
+import PaymentOption from './Forms/PaymentOption';
 
 const steps = [
     {
@@ -44,7 +45,7 @@ export default class Checkout extends Component {
         
         this.state = { 
             currentStep: 1,
-            currentForm: 7 
+            currentForm: 8 
         };
     }
 
@@ -56,8 +57,10 @@ export default class Checkout extends Component {
             currentStep = 1;
         } else if (currentForm > 0 && currentForm < 5) {
             currentStep = 2;
-        } else if (currentForm > 4) {
+        } else if (currentForm > 4 && currentForm < 9) {
             currentStep = 3;
+        } else if (currentForm > 8) {
+            currentStep = 4;
         }
 
         this.setState({ currentForm, currentStep });
@@ -71,8 +74,10 @@ export default class Checkout extends Component {
             currentStep = 1;
         } else if (currentForm > 0 && currentForm < 5) {
             currentStep = 2;
-        } else if (currentForm > 4) {
+        } else if (currentForm > 4 && currentForm < 9) {
             currentStep = 3;
+        } else if (currentForm > 8) {
+            currentStep = 4;
         }
 
         this.setState({ currentForm, currentStep });
@@ -146,6 +151,13 @@ export default class Checkout extends Component {
                     { 
                         currentForm === 8 &&
                         <BizBanking
+                            onSaveAndContinue={() => this.onSaveAndContinue()}
+                            onBack={() => this.onBack()}
+                        />
+                    }
+                    { 
+                        currentForm === 9 &&
+                        <PaymentOption
                             onSaveAndContinue={() => this.onSaveAndContinue()}
                             onBack={() => this.onBack()}
                         />
